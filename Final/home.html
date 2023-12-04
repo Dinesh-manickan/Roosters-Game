@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ROOSTER CHASE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css">
+  <!-- <style>
+    .body{
+        background-color: #000;
+    }
+  .fakeimg {
+    height: 200px;
+    background: #000;
+  }
+  </style> -->
+</head>
+<body>
+
+
+ <div class="p-5  text-white text-center">
+  <!-- <h1>ROOSTER CHASE</h1>     -->
+  <p id="rainbow">ROOSTER CHASE</p>
+</div> 
+<!-- <p id="rainbow">ROOSTER CHASE</p>  -->
+
+
+
+<div class="container mt-5 d-flex justify-content-center flex">
+  <div class="row">
+    <div class="d-flex justify-content-center">
+        <div >
+
+            <h2 class="mt-4">Main Menu</h3>
+            
+            <ul class="nav nav-pills flex-column container d-flex justify-content-center flex">
+              <li class="nav-item">
+                <a class="nav-link active container d-flex justify-content-center flex " href="index.html">Easy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active container d-flex justify-content-center flex mt-3 " href="hard.html">Hard</a>
+              </li>
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    RULES:-
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">RULES</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...Instructions<br>
+          1. The game is about a Roaster Game <br>
+          2. The game consists of an 8 by 8 matrix<br>
+          3. The user task is to catch the ROOSTER in a given box<br>
+          4. The user can only move top,bottom,right and left<br>
+          5. When user catches the ROOSTER or roaster accidently comes to the user locks the user will win the game<br>
+          6. In hard mode the oponent will move randomly to any box in the matrix<br>
+          6. End the game.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+        
+            </ul>
+            <hr class="d-sm-none">
+          </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 113 46">
+        <path id="b" stroke="#fff" stroke-linecap="round" stroke-width="0" d="M13.17 43c-.478-1.188-3.117-4.02-2.866-7.13.25-3.11 5.087-7.212 4.37-11.526-.716-4.314-8.89-10.467-8.67-14.358C6.225 6.096 14.334 2.498 16 1"></path>
+        <path id="d" stroke="#fff" stroke-linecap="round" stroke-width="0" d="M83.378 43c.907-1.188 5.922-4.02 5.445-7.13-.476-3.11-9.666-7.212-8.304-11.526C81.88 20.03 90.919 13.391 90.5 9.5 90.08 5.61 81.165 2.498 78 1"></path>
+        <path id="f" stroke="#fff" stroke-linecap="round" stroke-width="0" d="M35.812 43c.812-1.188 4.303-4.5 5.188-7 3.316-9.37-8.965-7.342-7.746-11.656 1.218-4.314 9.622-9.953 9.246-13.844C42.124 6.61 33.832 2.498 31 1"></path>
+        <path id="h" stroke="#fff" stroke-linecap="round" stroke-width="0" d="M106.755 43c-.717-1.188-3.786-1.636-4.3-7.13C102 31 101.988 31.656 107 24c3.5-9.5-11.325-10.123-10.993-14.014C96.338 6.096 108.5 2.498 111 1"></path>
+        
+        <g>
+          <circle r=".5" fill="#D9D9D9">
+            <animateMotion dur="8s" repeatCount="indefinite">
+              <mpath href="#b"></mpath>
+            </animateMotion>
+          </circle>
+        </g>
+        <g>
+          <circle r=".5" fill="#fff" fill-opacity=".5" shape-rendering="crispEdges">
+            <animateMotion dur="6s" repeatCount="indefinite">
+              <mpath href="#d"></mpath>
+            </animateMotion>
+          </circle>
+        </g>
+        <g>
+          <circle r=".5" fill="#fff" fill-opacity=".5" shape-rendering="crispEdges">
+            <animateMotion dur="7s" repeatCount="indefinite">
+              <mpath href="#f"></mpath>
+            </animateMotion>
+          </circle>
+        </g>
+        <g>
+          <circle r=".5" fill="#fff" fill-opacity=".7" shape-rendering="crispEdges">
+            <animateMotion dur="5s" repeatCount="indefinite">
+              <mpath href="#h"></mpath>
+            </animateMotion>
+          </circle>
+        </g>
+      </svg>
+    
+    <!-- <div class="col-sm-8">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2020</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+      <h2 class="mt-5">TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2020</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+</div> -->
+
+<!-- <div class="mt-4 p-5 bg-dark text-white text-center">
+    <div class="col-sm-8">
+        <h2>About Me</h2>
+        <h5>Photo of me:</h5>
+        <div class="fakeimg">Fake Image</div>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+</div> -->
+<SCript>
+</SCript>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>  
+<script src="Home.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

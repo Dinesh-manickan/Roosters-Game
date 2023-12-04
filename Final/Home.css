@@ -1,0 +1,69 @@
+body {
+    background-image: url("background.png");
+    padding: 100px;
+  }
+  #rainbow {
+    text-align: center;
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight:900;
+  }
+  .rainbow {
+      animation-name: rainbow;
+      animation-duration: 3.5s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+  }
+  
+  @keyframes rainbow {
+      /* 0% {
+          color: red;
+        text-shadow: -4px 0px 4px magenta;
+      }
+      12.5% {
+          color: orange;
+        text-shadow: -4px 0px 4px red;
+      }
+      25% {
+          color: yellow;
+        text-shadow: -4px 0px 4px orange;
+      }
+      37.5% {
+          color: greenyellow;
+        text-shadow: -4px 0px 4px yellow;
+      }
+      50% {
+          color: cyan;
+        text-shadow: -4px 0px 4px greenyellow;
+      }
+      62.5% {
+          color: RoyalBlue;
+        text-shadow: -4px 0px 4px cyan;
+      }
+    75% {
+      color: purple;
+        text-shadow: -4px 0px 4px RoyalBlue;
+    }
+    87.5 {
+      color: magenta;
+        text-shadow: -4px 0px 4px purple;
+    }
+    100% {
+      color: red;
+        text-shadow: -4px 0px 4px magenta;
+    } */
+
+    0%{
+        color: yellow;
+        text-shadow: -4px 0px 4px yellow;
+    }
+    50%{
+        color: white;
+        text-shadow: -4px 0px 4px greenyellow;
+    }
+    100%{
+        color: yellow;
+        text-shadow: -4px 0px 4px yellow;
+    }
+  }

@@ -1,0 +1,85 @@
+.item1 { grid-area: header; }
+.item2 { 
+    grid-area: menu; 
+    min-width: fit-content;
+    width: fit-content
+}
+.item3 { 
+    grid-area: menu1; 
+    min-width: fit-content;
+    width: fit-content;
+    
+}
+.item4 { 
+    grid-area: main; 
+    min-width: fit-content;
+    width: fit-content;
+}
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header header header'
+    'menu main main main main main main main'
+    'menu1 main main main main main main main';
+  gap: 10px;
+  /* background-color: #2196F3; */
+  background-image: url("background.png");
+  padding: 100px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  
+}
+
+.btn_custom{
+    width: 50px;
+    height: 50px;
+    background-color:darkcyan;
+    border-radius: 15%;
+    border-color: none;
+    border-width: 0;
+    
+}
+
+.komoBtn{
+    width: 50px;
+    height: 50px;
+    background-color:red !important;
+    border-radius: 15%;
+    border-color: none;
+    border-width: 0;
+    color:black;
+}
+.FarmarBtn{
+    width: 50px;
+    height: 50px;
+    background-color:gray !important;
+    border-radius: 15%;
+    border-color: none;
+    border-width: 0;
+}
+
+.btn_custom:hover{
+    background-color: #2196F3;
+}
+.btn_custom:disabled{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(0, 102, 139);
+    border-radius: 15%;
+    border-color: none;
+    border-width: 0;
+}
+.game{
+    padding: 50px;
+}
+
+.col{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
